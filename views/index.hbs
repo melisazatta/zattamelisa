@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pagina web de Melisa</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-lg-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mel's World</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="navegador">
+    <div class="container">
+      <div class="row presentacion">
+        <div class="lugar col-lg-8">
+          <h1 class="frase">Tu lugar favorito de uñas!</h1>
+          <hr class="divider-1" />
+        </div>
+        <div class="col-lg-8">
+          <p class="texto">
+            Bienvenidos a nuestro sitio web! En él encontrarás todo para tus
+            uñas.
+          </p>
+          <a class="btn btn-primary" href="#nosotros">Conocenos</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="nosotros" id="nosotros">
+    <div>
+      <h2>Todo lo que buscas en un mismo lugar!</h2>
+      <hr class="divider" />
+    </div>
+    <div class="historia">
+      <p class="texto2">
+        Somos un Nails Spa que nació en 2017, en la ciudad de Rosario. Nos
+        especializamos en el cuidado y belleza de uñas.
+      </p>
+      <div>
+        <a class="btn-light" href="#servicios">Querés saber más?</a>
+      </div>
+    </div>
+  </section>
+  <section class="servicios" id="servicios">
+    <div class="servTitulo">
+      <h1>Servicios</h1>
+      <hr class="divider-3" />
+    </div>
+    <div class="items container-fluid">
+      <div class="row">
+        <div class="semi col-lg-3 col-md-6">
+          <i class="bi bi-gem"></i>
+          <h3>Esmaltado Semipermanente</h3>
+          <p>Sistema mediante el cual se aplica gel uv sobre la uña.</p>
+        </div>
+        <div class="escul col-lg-3 col-md-6">
+          <i class="bi bi-star"></i>
+          <h3>Esculpidas</h3>
+          <p>
+            Son extenciones de uñas construidas con material acrílico o gel.
+          </p>
+        </div>
+        <div class="capp col-lg-3 col-md-6">
+          <i class="bi bi-moon"></i>
+          <h3>Sistema Capping</h3>
+          <p>Mediante este método lográs fortalecer tus uñas.</p>
+        </div>
+        <div class="tradi col-lg-3 col-md-6">
+          <i class="bi bi-heart"></i>
+          <h3>Esmaltado Tradicional</h3>
+          <p>El clásico que nunca pasa de moda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="galeria"></div>
+  <div class="container-fluid">
+    <div class="row g-0">
+      <div class="col-lg-4 col-sm-6">
+        <a href="assets/portfolio/fullsize/nails1.jpg"></a>
+        <img class="img-fluid" src="assets/portfolio/thumbnails/1.jpg" />
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="assets/portfolio/fullsize/semi.jpg"></a>
+        <img class="img-fluid" src="assets/portfolio/thumbnails/2.jpg" />
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="assets/portfolio/fullsize/capp.jpg"></a>
+        <img class="img-fluid" src="assets/portfolio/thumbnails/3.jpg" />
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="assets/portfolio/fullsize/nails4.jpg"></a>
+        <img class="img-fluid" src="assets/portfolio/thumbnails/4.jpg" />
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="assets/portfolio/fullsize/tradi.jpg"></a>
+        <img class="img-fluid" src="assets/portfolio/thumbnails/5.jpg" />
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="assets/portfolio/fullsize/nails6.jpg"></a>
+        <img class="img-fluid" src="assets/portfolio/thumbnails/6.jpg" />
+      </div>
+    </div>
+  </div>
+  <section id="contacto" class="container col-lg-6 col-md-6 col-sm-6 contacto">
+    <div class="row">
+      <h1 class="servTitulo">Dejame tus datos</h1>
+      <hr class="divider-3" />
+      <p class="texto1">Para turnos o consultas no dudes en escribirme!</p>
+    </div>
+    <div class="container-fluid">
+      <form onsubmit="return formulario()" id="contacForm" action="/registro" method="post">
+        <div class="formulario">
+          <div class="lista">
+            <div class="mb-3">
+              <label for="name">Nombre</label>
+              <input class="form-control" id="name" type="text" name="name" placeholder="Ingrese su nombre." />
+            </div>
+            <div class="mb-3">
+              <label for="email">Email</label>
+              <input class="form-control" id="email" type="email" name="email" placeholder="nombre@ejemplo.com" />
+            </div>
+            <div class="mb-3">
+              <label for="phone">Número de teléfono</label>
+              <input class="form-control" id="phone" type="tel" name="tel" placeholder="(123) 456-7890" />
+            </div>
+            <div class="mb-3">
+              <label for="message">Mensaje</label>
+              <textarea class="form-control" name="message" id="message" type="text" cols="40" rows="10"></textarea>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" value="submit" type="submit">
+          Enviar
+        </button>
+      </form>
+    </div>
+    <div>
+
+    </div>
+    <div class="phone">
+      <i class="bi-phone fs-2 text-muted"></i>
+      <div>+54 (341) 123-456789</div>
+    </div>
+  </section>
+
+  {{>footer}}
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
