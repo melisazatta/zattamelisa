@@ -5,7 +5,7 @@ const hbs = require("hbs");
 require ("dotenv").config();
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 
 //contenido estatico
 app.use(express.static("public"));
@@ -50,6 +50,6 @@ app.get("*", (req, res)=>{
   res.send("404");
 });
 
-app.listen(8000, () => {
+app.listen(port, () => {
   console.log(`Usando el puerto http://localhost:${port}`);
 });
