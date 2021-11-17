@@ -81,3 +81,5 @@ function insertarCarrito(producto) {
     `;
     listaProductos.appendChild(row);
 }
+
+

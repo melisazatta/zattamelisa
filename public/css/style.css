@@ -67,6 +67,9 @@ body {
   .texto {
     font-size: 1.5rem;
   }
+  ul.redes li a{
+    font-size: 1.50rem;
+  }
 }
 @media (max-width: 700px) {
   .navegador {
@@ -78,6 +81,9 @@ body {
   .texto {
     font-size: 1.1rem;
     margin-bottom: 2rem;
+  }
+  ul.redes li a{
+    font-size: 1rem;
   }
 }
 a.btn {
@@ -219,12 +225,7 @@ hr:not([size]) {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-footer {
-  background-color: rgb(226, 226, 226);
-  padding: 3rem;
-  text-align: center;
-  color: rgb(138, 138, 138);
-}
+
 /* Tienda */
 
 .bodyTienda{
@@ -264,4 +265,67 @@ tbody, td, tfoot, th, thead, tr {
 .card-img-top {
   border-radius: 1.8rem;
   padding-top: .50rem;
+}
+
+/*Footer*/
+footer {
+  margin-top: 4rem;
+  background-color: rgb(69, 45, 109);
+  padding: 2rem;
+  text-align: center;
+  color: rgb(138, 138, 138);
+}
+.imgf {
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+}
+a {
+  color: #9f80ff;
+  text-decoration: none;
+}
+ul.redes{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+}
+ul.redes li{
+  display: inline-block;
+  margin: 2px;
+  padding-left: 4rem;
+}
+/* Enviado */
+.enviado{
+  padding-top: 5rem;
+  background-color: rgb(116, 24, 221);
+  font-size: 3rem;
+  color: antiquewhite;
+}
+a.volver:hover{
+  color: rgb(243, 233, 255);
+}
+.mensEnv{
+justify-content: center;
+}
+.textenv{
+  text-align: center;
+}
+/* Lista */
+
+.listado{
+  background-color: #e3d6ff;
+}
+
+.btn-crud{
+  padding: .90rem;
+  border-radius: 1.25rem;
+  color: aliceblue;
+}
+a.btn-crud{
+  border-radius: 1.25rem;
+  padding: .75rem;
+}
+a:hover {
+  color: #6924ff;
 }
