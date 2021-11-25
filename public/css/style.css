@@ -6,6 +6,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+/* Navbar */
 .navbar-dark .navbar-brand {
   color: #c89eff;
   font-size: 1.5rem;
@@ -26,6 +27,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(225 197 255 / 92%);
 }
+/* Presentacion */
 .navegador {
   background-color: rgb(179, 147, 255);
   background: linear-gradient(
@@ -114,6 +116,7 @@ a.btn:focus {
   background-color: rgb(179, 147, 255);
   border-color: rgb(179, 147, 255);
 }
+/* Nosotros */
 .nosotros {
   background-color: rgb(157, 104, 255);
   text-align: center;
@@ -199,12 +202,12 @@ hr:not([size]) {
 #galeria{
   box-shadow: 1px 1px 10px rgb(78, 0, 167);
 }
+/* Contacto */
 .contacto {
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-
 .formulario {
   display: flex;
   align-items: center;
