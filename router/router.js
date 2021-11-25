@@ -59,16 +59,16 @@ router.get("/", (req, res) => {
   res.render("index");
 });
 
-router.get("/tienda", (req, res) => {
-  res.render("tienda");
-});
-
 router.get("/lista", (req, res) => {
   res.render("lista");
 });
 
+router.get("/servicios", (req, res) => {
+  res.render("servicios");
+});
+
 router.get("*", (req, res)=>{
-    res.send("404");
+    res.render("404");
   });
 
 

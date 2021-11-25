@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-11-2021 a las 00:34:12
+-- Tiempo de generación: 25-11-2021 a las 05:05:22
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.11
 
@@ -43,7 +43,7 @@ INSERT INTO `producto` (`producto_id`, `producto_nombre`, `producto_precio`) VAL
 (3, 'Esculpidas acrylgel', 1200),
 (4, 'Sistema Capping', 450),
 (5, 'Esculpidas acrílico', 1500),
-(6, 'Belleza de manos', 400);
+(6, 'Francesitas', 700);
 
 --
 -- Índices para tablas volcadas
@@ -63,7 +63,7 @@ ALTER TABLE `producto`
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
-  MODIFY `producto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `producto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
