@@ -281,6 +281,7 @@ ul.redes li {
 .cuore{
   color: rgb(190, 0, 117);
   display: inline-block;
+  font-size: .70rem;
 }
 /* Enviado */
 .enviado {
@@ -377,7 +378,7 @@ body.paginaerror{
   background: url("/assets/paisaje.jpg") no-repeat left top;
   background-size: cover;
   overflow: hidden;
-
+  background-color: rgb(111, 17, 235);
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
